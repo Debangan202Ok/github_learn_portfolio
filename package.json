@@ -2,7 +2,7 @@
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
-  "source": "src/index.html",
+  "source": "index.html",
   "homepage": "http://pauldebangan1970.github.io/github_learn_portfolio",
   "scripts": {
     "start": "parcel",
