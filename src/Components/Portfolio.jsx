@@ -31,37 +31,37 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "A simple Retro styled Portfolio",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "I was thinking of making a retro styled facebook themed portfolio using react, and here it is.",
+    url: "https://comforting-genie-d0dcfd.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "What About Simple js game?",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "After watching too many video tutorials. i was thinking of making a simple js game, and here it is.",
+    url: "https://github.com/pauldebangan1970/GuessTheNum",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "I chellenged myself to make a resume site using only html and css, and i did it.All source codes are available in my github account.",
+    url: "https://pauldebangan1970.github.io/Porfolio/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "A simle Data Structure wiki",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A day before my exam i was thinking of making a simple data structure wiki using html and css, and here it is.",
+    url: "https://data-structure-skill.netlify.app/",
   },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
+    <section className="padding port-back" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "40%", alignSelf: "center", borderRadius: "1rem", overflow: "hidden" }}>
           <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
